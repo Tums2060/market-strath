@@ -7,6 +7,7 @@ import VendorRegister from "./pages/VendorRegister";
 import VendorLogin from './pages/VendorLogin';
 import Buy from "./pages/buy";
 import UserLogin from './pages/UserLogin';
+import VendorDashboard from './pages/VendorDashboard';
 
 function App(){
   return (
@@ -18,6 +19,7 @@ function App(){
         <Route path="/login-vendor" element={<VendorLogin />} />
         <Route path="/buy" element={<Buy />} />
         <Route path="login-buyer" element={<UserLogin/>} />
+        <Route path="vendor-dashboard" element={VendorDashboard} />
       </Routes>
     </Router>
   );
