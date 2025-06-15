@@ -19,7 +19,7 @@ function App(){
         <Route path="/login-vendor" element={<VendorLogin />} />
         <Route path="/buy" element={<Buy />} />
         <Route path="login-buyer" element={<UserLogin/>} />
-        <Route path="vendor-dashboard" element={VendorDashboard} />
+        <Route path="vendor-dashboard" element={<VendorDashboard/>} />
       </Routes>
     </Router>
   );
